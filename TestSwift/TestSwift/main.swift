@@ -163,3 +163,5 @@ struct XX: OptionSet {
   let rawValue: Int
 }
 
+
+TestCollection.test()
