@@ -17,17 +17,32 @@ class TestCollection {
     }
   }
   
+  static func threadSafe() {
+    do {
+      var nums = [1, 2, 3]
+      DispatchQueue.global().async {
+        for item in nums {
+          print(item)
+        }
+        
+        for i in 0..<10 {
+          nums.append(i)
+        }
+      }
+      
+      DispatchQueue.global().async {
+        for _ in 0..<10 {
+          print("removed", nums.removeLast(), separator: ":")
+        }
+      }
+      
+      print("result", nums, separator: ":")
+    }
+  }
+  
   static func test() {
     slice()
     
-    // will not crash when enumeating
-    do {
-      var nums = [1, 2, 3]
-      for _ in nums {
-        print("removed", nums.removeLast(), separator: ":")
-      }
-      print("result", nums, separator: ":")
-    }
     
     class Stack<Element>: Sequence, IteratorProtocol {
       var array: [Element]
