@@ -165,3 +165,5 @@ struct XX: OptionSet {
 
 
 TestCollection.test()
+
+Operator.test()
