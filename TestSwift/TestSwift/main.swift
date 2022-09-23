@@ -31,8 +31,6 @@ outer:
   }
 }
 
-print("hello world")
-
 do {
   enum TestEnum {
     case test1, test2, test3
@@ -167,3 +165,7 @@ struct XX: OptionSet {
 TestCollection.test()
 
 Operator.test()
+
+TryCatch.test()
+
+print("hello world")

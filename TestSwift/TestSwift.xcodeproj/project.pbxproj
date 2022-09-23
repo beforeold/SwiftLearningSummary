@@ -10,6 +10,7 @@
 		940D1A4F28D475A9009D7185 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D1A4E28D475A9009D7185 /* main.swift */; };
 		94190DDE28DAEBA800E9D1C2 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94190DDD28DAEBA800E9D1C2 /* Operator.swift */; };
 		943A51F228D629F6008C8110 /* POP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A51F128D629F6008C8110 /* POP.swift */; };
+		949F64AB28DD59A8005C9714 /* TryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949F64AA28DD59A8005C9714 /* TryCatch.swift */; };
 		94A0997628D7F74C00E0E561 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0997528D7F74C00E0E561 /* Collection.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		940D1A4E28D475A9009D7185 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94190DDD28DAEBA800E9D1C2 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		943A51F128D629F6008C8110 /* POP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP.swift; sourceTree = "<group>"; };
+		949F64AA28DD59A8005C9714 /* TryCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatch.swift; sourceTree = "<group>"; };
 		94A0997528D7F74C00E0E561 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				943A51F128D629F6008C8110 /* POP.swift */,
 				94A0997528D7F74C00E0E561 /* Collection.swift */,
 				94190DDD28DAEBA800E9D1C2 /* Operator.swift */,
+				949F64AA28DD59A8005C9714 /* TryCatch.swift */,
 			);
 			path = TestSwift;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				94190DDE28DAEBA800E9D1C2 /* Operator.swift in Sources */,
 				940D1A4F28D475A9009D7185 /* main.swift in Sources */,
 				943A51F228D629F6008C8110 /* POP.swift in Sources */,
+				949F64AB28DD59A8005C9714 /* TryCatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
