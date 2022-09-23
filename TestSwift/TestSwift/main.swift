@@ -168,4 +168,6 @@ Operator.test()
 
 TryCatch.test()
 
+TestArray.test()
+
 print("hello world")

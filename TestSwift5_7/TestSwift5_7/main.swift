@@ -82,6 +82,3 @@ struct ClosureUpdate {
         print(compare())
     }
 }
-
-
-print("Hello, World!")
