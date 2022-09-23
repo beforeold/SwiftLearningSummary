@@ -7,8 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
 protocol Shape: Equatable {
     
 }
@@ -68,3 +66,22 @@ print(cache)
 
 var val: any Cache<String> = FileCache(items: [])
 val = MemoCache(items: [])
+
+
+struct ClosureUpdate {
+    static func foo() {
+        let v0 = 2
+        let compare = {
+            let v1 = 10
+            let v2 = v1 + v0
+            if v1 > v2 {
+                return true
+            }
+            return false
+        }
+        print(compare())
+    }
+}
+
+
+print("Hello, World!")
