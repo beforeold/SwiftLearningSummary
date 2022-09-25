@@ -48,6 +48,7 @@ struct TestTypeErased {
         var someArray: [some Printer] = [Logger()]
         // someArray.append(Message())
         // someArray.append(Logger())
+        someArray = []
         someArray.forEach { pri in
             // pri.print(val: <#T##Printer.T#>)
             print(pri)

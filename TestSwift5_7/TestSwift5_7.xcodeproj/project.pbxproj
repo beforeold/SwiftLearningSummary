@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		941A3C6328DAF86300F15EFB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A3C6228DAF86300F15EFB /* main.swift */; };
 		94466CEC28E064D400705362 /* TestTypeErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94466CEB28E064D400705362 /* TestTypeErased.swift */; };
+		946F3A6428E077FF00F4225D /* TestSomeAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F3A6328E077FF00F4225D /* TestSomeAny.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		941A3C5F28DAF86300F15EFB /* TestSwift5_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestSwift5_7; sourceTree = BUILT_PRODUCTS_DIR; };
 		941A3C6228DAF86300F15EFB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94466CEB28E064D400705362 /* TestTypeErased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTypeErased.swift; sourceTree = "<group>"; };
+		946F3A6328E077FF00F4225D /* TestSomeAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSomeAny.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				941A3C6028DAF86300F15EFB /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 3;
 		};
 		941A3C6028DAF86300F15EFB /* Products */ = {
 			isa = PBXGroup;
@@ -61,6 +64,7 @@
 			children = (
 				941A3C6228DAF86300F15EFB /* main.swift */,
 				94466CEB28E064D400705362 /* TestTypeErased.swift */,
+				946F3A6328E077FF00F4225D /* TestSomeAny.swift */,
 			);
 			path = TestSwift5_7;
 			sourceTree = "<group>";
@@ -123,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946F3A6428E077FF00F4225D /* TestSomeAny.swift in Sources */,
 				941A3C6328DAF86300F15EFB /* main.swift in Sources */,
 				94466CEC28E064D400705362 /* TestTypeErased.swift in Sources */,
 			);
