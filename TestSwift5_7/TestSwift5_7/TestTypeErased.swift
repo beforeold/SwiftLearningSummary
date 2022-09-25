@@ -37,9 +37,32 @@ struct TestTypeErased {
             // Fallback on earlier versions
         }
         
+        var anyArray: [any Printer] = [Logger()]
+        anyArray.append(Message())
+        anyArray.append(Logger())
+        anyArray.forEach { pri in
+            // pri.print(val: <#T##Printer.T#>)
+            print(pri)
+        }
+        
+        var someArray: [some Printer] = [Logger()]
+        // someArray.append(Message())
+        // someArray.append(Logger())
+        someArray.forEach { pri in
+            // pri.print(val: <#T##Printer.T#>)
+            print(pri)
+        }
     }
     
     static func createPrinter() -> some Printer<String> {
+        return Logger()
+    }
+    
+    static func createPrinter2() -> some Printer {
+        return Logger()
+    }
+    
+    static func createPrinter3() -> any Printer {
         return Logger()
     }
 }
