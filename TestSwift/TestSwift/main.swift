@@ -171,3 +171,5 @@ TryCatch.test()
 TestArray.test()
 
 print("hello world")
+
+bar()
