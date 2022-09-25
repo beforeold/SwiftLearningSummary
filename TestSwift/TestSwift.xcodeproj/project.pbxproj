@@ -13,6 +13,7 @@
 		949F64AB28DD59A8005C9714 /* TryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949F64AA28DD59A8005C9714 /* TryCatch.swift */; };
 		94A0997628D7F74C00E0E561 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A0997528D7F74C00E0E561 /* Collection.swift */; };
 		94B210D628DD753A00901A2F /* TestArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B210D528DD753A00901A2F /* TestArray.swift */; };
+		94E4101028E041730046B0D5 /* TestClassArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4100F28E041730046B0D5 /* TestClassArray.swift */; };
 		94E6965528E000470001D26A /* StringDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6965428E000470001D26A /* StringDecoding.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		949F64AA28DD59A8005C9714 /* TryCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatch.swift; sourceTree = "<group>"; };
 		94A0997528D7F74C00E0E561 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		94B210D528DD753A00901A2F /* TestArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestArray.swift; sourceTree = "<group>"; };
+		94E4100F28E041730046B0D5 /* TestClassArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClassArray.swift; sourceTree = "<group>"; };
 		94E6965428E000470001D26A /* StringDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDecoding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				949F64AA28DD59A8005C9714 /* TryCatch.swift */,
 				94B210D528DD753A00901A2F /* TestArray.swift */,
 				94E6965428E000470001D26A /* StringDecoding.swift */,
+				94E4100F28E041730046B0D5 /* TestClassArray.swift */,
 			);
 			path = TestSwift;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				94E6965528E000470001D26A /* StringDecoding.swift in Sources */,
 				94B210D628DD753A00901A2F /* TestArray.swift in Sources */,
 				94190DDE28DAEBA800E9D1C2 /* Operator.swift in Sources */,
+				94E4101028E041730046B0D5 /* TestClassArray.swift in Sources */,
 				940D1A4F28D475A9009D7185 /* main.swift in Sources */,
 				943A51F228D629F6008C8110 /* POP.swift in Sources */,
 				949F64AB28DD59A8005C9714 /* TryCatch.swift in Sources */,

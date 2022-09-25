@@ -173,3 +173,5 @@ TestArray.test()
 print("hello world")
 
 bar()
+
+TestClassArray.test()
