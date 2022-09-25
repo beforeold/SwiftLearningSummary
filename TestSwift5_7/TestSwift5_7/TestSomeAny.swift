@@ -34,6 +34,10 @@ class TestSomeAny {
         return 1
     }
     
+    static func createSomeCollection() -> some Collection {
+        return [1]
+    }
+    
     static func createSomeComparable() -> some Comparable {
         return 1
     }
@@ -43,9 +47,16 @@ class TestSomeAny {
     }
     
     static func test() {
-        let ins1 = createSomeEquatable()
-        let ins2 = createSomeEquatable()
-        print(ins1 == ins2)
+        let e1 = createSomeEquatable()
+        let e2 = createSomeEquatable()
+        print(e1 == e2)
+        // print(e1 + e2)
+        
+        var c1 = createSomeCollection()
+        let c2 = createSomeCollection()
+        c1 = c2
+        print(c1, c2)
+        // c1 += c2
         
         let cmp1 = createSomeComparable()
         let cmp2 = createSomeComparable2()
