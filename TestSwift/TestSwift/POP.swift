@@ -26,12 +26,14 @@ extension Comparable where Self: Ordered {
   }
 }
 
+fileprivate
 func foo<T: Ordered>(_ val: T) {
   print(val)
 }
 
 extension Int: Ordered {}
 
+fileprivate
 func testFoo() {
   foo(5)
 }
